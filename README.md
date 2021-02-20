@@ -10,11 +10,11 @@ In this project we'll implement a full authentication workflow (register/login/l
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git `push origin <firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git `push origin <firstName-lastName>`.
 
 ### Task 2: Minimum Viable Product
 
@@ -34,7 +34,7 @@ Use **JSON Web Tokens** to keep users authenticated across requests.
 
 ### Task 3: Stretch Goals
 
-- add the code necessary so that when a client makes a `GET` request to `/api/users` the server only returns documents with the `same department` as the logged in user. For example if the logged in user belongs to the finance department, then only users with the _finance_ department should be returned; if the logged in user is in _sales_ only users on the sales department should be returned.
+- [x] add the code necessary so that when a client makes a `GET` request to `/api/users` the server only returns documents with the `same department` as the logged in user. For example if the logged in user belongs to the finance department, then only users with the _finance_ department should be returned; if the logged in user is in _sales_ only users on the sales department should be returned.
 - implement a React client:
   - use `create-react-app` to generate a application to server as the client for the Web API.
   - inside the React application add **client-side routes** and components for `signup`, `signin` and showing the `list of users` stored in the database.
@@ -48,4 +48,4 @@ Use **JSON Web Tokens** to keep users authenticated across requests.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a pull request to merge `<firstName-lastName>` Branch into main (student's  Repo). **Please don't merge your own pull request**
+- [x] Submit a pull request to merge `<firstName-lastName>` Branch into main (student's Repo). **Please don't merge your own pull request**
