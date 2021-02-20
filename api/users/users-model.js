@@ -16,6 +16,11 @@ function getByUsername(username) {
   return db("users").where({ username }).first();
 }
 
+//* Get user by Department
+function getByDepartment(department) {
+  return db("users").where({ department });
+}
+
 //* Create a new user
 function addNewUser(user) {
   return db("users")
@@ -31,4 +36,5 @@ module.exports = {
   getByID,
   addNewUser,
   getByUsername,
+  getByDepartment,
 };
